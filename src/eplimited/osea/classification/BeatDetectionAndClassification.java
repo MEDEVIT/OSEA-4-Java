@@ -40,7 +40,7 @@ public class BeatDetectionAndClassification
 	private Matcher matcher ;
 	private Classifier classifier ;
 	
-	public final int ECG_BUFFER_LENGTH = 1000 ;	// Should be long enough for a beat
+	public final int ECG_BUFFER_LENGTH = 2000 ;	// Should be long enough for a beat
 	// plus extra space to accommodate the maximum detection delay.
 
 	public final int BEAT_QUE_LENGTH = 10 ; // Length of que for beats awaiting
